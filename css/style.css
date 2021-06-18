@@ -9,9 +9,48 @@
     width: 100%;
 }
 
+.w-60{
+    width: 60%;
+    margin: 0 auto;
+}
 .w-80{
     width: 80%;
     margin: 0 auto;
+}
+/*Padding*/
+.pt-50{
+    padding-top: 50px;
+}
+
+.pt-15{
+    padding-top: 15px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pb-top, .pd-bottom{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Fine padding*/
+
+.p20{
+    font-size: 20px;
+}
+
+.p17{
+    font-size: 17px;
+}
+
+.color-azure{
+    background-color: rgb(180, 208, 231);
+}
+
+.color-buttom{
+    background-color: rgb(0, 97, 255);
 }
 
 .clearfix::after{
@@ -67,15 +106,73 @@ header > .header-left{
 
 
 #button-accedi{
-    background-color: blue;
-    padding: 5px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 200px;
     height: 20px;
+    color: white;
 }
 /*Fine header right*/
 
 /*Fine Header*/
 
+/*Inizio section*/
 
+.section-top{
+    padding-top: 80px;
+    height: 250px;;
+}
+
+/*Section left*/
+.section-bottom-left{
+    float: left;
+    width: 40%;
+    height: 50%;
+}
+
+
+
+
+
+/*Fine section left*/
+
+/*Section bottom*/
+.section-bottom{
+    height: 350px;
+}
+
+.section-bottom-right{
+    float: right;
+    width: 60%;
+    padding-left: 10px;
+}
+.section-bottom-left > button{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.section-bottom-right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding-left: 80px;    
+}
+
+/*Fine section bottom*/
+
+
+
+
+
+
+section h1{
+    font-size: 80px;
+    color: rgb(0, 0, 0)
+}
+
+
+/*Fine section*/
 
 
