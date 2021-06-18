@@ -14,9 +14,67 @@
     margin: 0 auto;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header > div > ul{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+img{
+    line-height: 80px;
+}
+ul > li{
+    display: inline;
+    padding-left: 20px;
+}
+
+
+
+li > a{
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
 /*Fine common*/
 
+/*Inizio Header*/
 
+/*Header left*/
+header > .header-left{
+    padding-left: 20px;
+    width: 50%;
+    float: left;    
+}
+
+/*Fine header left*/
+
+/*Header right*/
+.header-right{
+    padding-right: 20px;
+    width: 50%;
+    float: right;
+}
+
+.header-right ul{
+    text-align: right;
+}
+
+
+#button-accedi{
+    background-color: blue;
+    padding: 5px 10px;
+    width: 200px;
+    height: 20px;
+}
+/*Fine header right*/
+
+/*Fine Header*/
 
 
 
